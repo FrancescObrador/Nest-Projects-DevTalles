@@ -15,7 +15,14 @@ npm i @nestjs/cli
 4. Run DB
 ```
 docker-compose up -d
+yarn start:dev
 ```
+
+5. Build DB with seed
+```
+http://localhost:3000/api/v1/seed
+```
+
 
 # Stack Used
 * MongoDB
